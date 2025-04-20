@@ -22,7 +22,7 @@ connectDb();
 app.use(express.json());
 app.use(
   cors({
-    origin: "*", // or "*" for testing only
+    origin: "https://wiztales-frontend.onrender.com", // or "*" for testing only
   })
 );
 
