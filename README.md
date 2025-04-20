@@ -6,8 +6,8 @@ WizTales is a full-stack travel storytelling platform built using the MERN stack
 
 ## 🚀 Live Links
 
-- 🌐 **Frontend Live**: [Click Here]()
-- 🔗 **Backend Live**: [Click Here]()
+- 🌐 **Frontend Live**: [Click Here](https://wiztales-frontend.onrender.com)
+- 🔗 **Backend Live**: [Click Here](https://wiztales-backend.onrender.com)
 - 🖼️ **Demo Video**: [Watch Here](https://your-demo-video-link.com)
 
 ---
