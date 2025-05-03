@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import loginimg from "../../assets/images/aurora.jpg";
 import logo from "../../assets/images/wizlogo2.png";
 import PasswordInput from "../../components/PasswordInput";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,NavLink } from "react-router-dom";
 import { validateEmail } from "../../utils/helper";
 import axiosInstance from "../../utils/axiosInstance";
 const Login = () => {
@@ -115,9 +115,9 @@ const Login = () => {
               <hr className=" border-t border-gray-300 my-4" />
               <p className="text-center text-sm sm:text-[15px]">
                 Don't have an account?{" "}
-                <a href="/signup" className="text-red-800">
+                <NavLink href="/signup" className="text-red-800">
                   Sign up
-                </a>
+                </NavLink>
               </p>
             </form>
           </div>
